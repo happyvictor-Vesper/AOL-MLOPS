@@ -2,6 +2,7 @@ torch==2.4.0
 torchvision==0.19.0
 accelerate==0.31.0
 diffusers @ git+https://github.com/huggingface/diffusers.git
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git
 matplotlib==3.9.1
 numpy==1.26.4
 opencv_python==4.10.0.84
@@ -18,4 +19,5 @@ pycocotools==2.0.8
 av==12.3.0
 gradio==4.41.0
 peft>=0.17.0
+
 huggingface_hub
